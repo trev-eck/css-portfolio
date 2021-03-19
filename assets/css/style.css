@@ -1,0 +1,97 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: darkslategray;
+    color: lightblue;
+    text-decoration: underline solid lightblue 2px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+}
+h1{
+    font-size: larger;
+    background-color: lightblue;
+    color: darkslategray;
+}
+nav a {
+    color: lightblue;
+    text-decoration: none;
+}
+nav a:hover {
+    color:lightseagreen;
+}
+figure img{
+    width: 100%;
+}
+h2 {
+    color: darkslategray; 
+}
+
+#contact-me ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:space-evenly;
+    font-size: 12px;
+    min-width: 300px;
+    padding-bottom: 2%;
+}
+#contact-me li{
+    text-decoration: underline solid darkslateblue 2px;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding:2% 5% 2% 0;
+}
+.projects h2 {
+/* 
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+} */
+    justify-content: flex-start;
+}
+.project {
+    border: solid 5px lightblue;
+    max-width: 40%;
+    opacity: 0.75;
+}
+.main-p {
+    max-width: 80%;
+}
+.project img {
+    width: 100%;
+}
+.project:hover {
+    transition: 0.5s ease-in;
+    opacity: 1;
+}
+.text-box {
+    position: relative;
+    bottom: 40px;
+    background-color: lightblue;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding-top: 1%;
+}
+.main-p.text-box{
+    padding-top: 0.5%;
+}
+.about-me {
+    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+
+}
