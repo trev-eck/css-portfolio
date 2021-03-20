@@ -1,100 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
     <header>
-    <h1>Trevor Eckberg's Portfolio</h1>
-    <nav class="navigation">
+      <h1>Trevor Eckberg's Portfolio</h1>
+      <nav class="navigation">
         <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
-            <li><a href="#resume">Resume</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+          <li><a href="#resume">Resume</a></li>
         </ul>
-    </nav>
-
+      </nav>
     </header>
     <main>
-        <figure>
-            <img src="./assets/images/james-harrison-vpOeXr5wmR4-unsplash (1).jpg" alt="laptop with code">
-            <figcaption style="position: relative padding-bottom: 20px">blah</figcaption>
-        </figure>
-
-        <section id="about-me">
-            <div class="about-me"></div>
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, voluptates provident dolor veniam cumque ipsum. Accusamus, veniam, minima tenetur est, at commodi doloribus tempora odio porro fuga earum maxime et.</p>
-                </section>
+      <figure>
+        <img src="./assets/images/james-harrison-vpOeXr5wmR4-unsplash (1).jpg" alt="laptop with code on screen">
+      </figure>
+      <div id="container">
+        <!-- <a href="./assets/images/james-harrison-vpOeXr5wmR4-unsplash (1).jpg"></a> -->
+        <div id="about-me">
+          <h2>About Me</h2>
+        </div>
+        <div id="about-me-info">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic neque
+            quae ad, aut eos quis dolores, sed deserunt rem alias obcaecati
+            ipsum, iste nulla eius sit architecto quod eveniet eum. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Magni labore
+            voluptatem dolor ex ad eligendi animi, deserunt provident
+            praesentium enim officiis id quo tempora reiciendis. Nemo,
+            voluptatem. Corporis, laudantium accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex accusamus culpa ullam aliquid similique ratione nobis corrupti ipsa nam, tempore eaque aliquam expedita consequatur autem enim error odit cupiditate quaerat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            repellendus velit dolorem est et alias nesciunt doloribus, explicabo
+            autem a cupiditate deserunt voluptatum quibusdam eum laborum
+            sapiente expedita ducimus animi. Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Reprehenderit ducimus qui porro
+            labore quidem, error recusandae iure saepe cum, inventore quos
+            voluptatibus nisi facere cupiditate laudantium possimus modi nemo
+            tenetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. In deleniti, quo nemo nobis eligendi quae voluptatem, repudiandae ut totam consequuntur veritatis est at id obcaecati sunt non sit. Neque, asperiores.
+          </p>
+        </div>
+      </div>
+      <div id="container2">
+        <div id="work">
+          <h2>Work</h2>
+        </div>
+        <div id="projects">
+          <section class="project main-p">
+            <a href="#"
+              ><img
+                src="assets\images\octavian-dan-b21Ty33CqVs-unsplash.jpg"
+                alt="projects sign on wall"
+            /></a>
+            <div class="text-box">
+              <h3>Project 1</h3>
+              <p>HTML/CSS</p>
             </div>
-        </section>
+          </section>
 
-        <section id="work">
-            <div class="projects">
-            <h2>Work</h2>
-                <section class="project main-p">
-                    <a href="#"><img src="assets\images\octavian-dan-b21Ty33CqVs-unsplash.jpg" alt="projects sign on wall"></a>
-                    <div class="text-box">
-                        <h3>Project 1</h3>
-                        <p>HTML/CSS</p>
-                    </div>
-                </section>
-
-                <section class="project">
-                    <a href="#"><img src="assets\images\tom-sodoge-cSjQJT0t2vA-unsplash.jpg" alt="cell phone taking picture"></a>
-                    <div class="text-box">
-                        <h3>Project 2</h3>
-                        <p>Javscript</p>
-                    </div>
-                </section>
-
-                <section class="project">
-                    <a href="#"><img src="assets\images\stephen-phillips-hostreviews-co-uk-aE0iX-bLCJc-unsplash (1).jpg" alt="slack on laptop"></a>
-                    <div class="text-box">
-                        <h3>Project 3</h3>
-                        <p>React</p>
-                    </div>
-                </section>
-
-                <section class="project">
-                    <a href="#"><img src="assets\images\nejc-soklic-2jTu7H9l6JA-unsplash.jpg" alt="music production software"></a>
-                    <div class="text-box">
-                        <h3>Project 4</h3>
-                        <p>Node.js</p>
-                    </div>
-                </section>
-
-                <section class="project">
-                    <a href="#"><img src="assets\images\jo-szczepanska-9OKGEVJiTKk-unsplash.jpg" alt="desk with crafting supplies"></a>
-                    <div class="text-box">
-                        <h3>Project 5</h3>
-                        <p>MongoDB</p>
-                    </div>
-                </section>
+          <section class="project">
+            <a href="#"
+              ><img
+                src="assets\images\tom-sodoge-cSjQJT0t2vA-unsplash.jpg"
+                alt="cell phone taking picture"
+            /></a>
+            <div class="text-box">
+              <h3>Project 2</h3>
+              <p>Javscript</p>
             </div>
-        </section>
+          </section>
 
+          <section class="project">
+            <a href="#"
+              ><img
+                src="assets\images\stephen-phillips-hostreviews-co-uk-aE0iX-bLCJc-unsplash (1).jpg"
+                alt="slack on laptop"
+            /></a>
+            <div class="text-box">
+              <h3>Project 3</h3>
+              <p>React</p>
+            </div>
+          </section>
 
-        <section id="contact-me">
-            <h2>Contact Me</h2>
-            <ul>
-                <li>425-314-1443</li>
-                <li>trevor.eckberg@gmail.com</li>
-                <a href="https://github.com/trev-eck/"><li>GitHub</li></a>
-                <a href="https://www.linkedin.com/in/trevor-eckberg-baa661192/"><li>LinkedIn</li></a>
-            </ul>
-        </section>
-        <!-- <section id="resume">
-            <h2>Resume</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, voluptates provident dolor veniam cumque ipsum. Accusamus, veniam, minima tenetur est, at commodi doloribus tempora odio porro fuga earum maxime et.</p>
-        </section> -->
+          <section class="project">
+            <a href="#"
+              ><img
+                src="assets\images\nejc-soklic-2jTu7H9l6JA-unsplash.jpg"
+                alt="music production software"
+            /></a>
+            <div class="text-box">
+              <h3>Project 4</h3>
+              <p>Node.js</p>
+            </div>
+          </section>
+
+          <section class="project">
+            <a href="#"
+              ><img
+                src="assets\images\jo-szczepanska-9OKGEVJiTKk-unsplash.jpg"
+                alt="desk with crafting supplies"
+            /></a>
+            <div class="text-box">
+              <h3>Project 5</h3>
+              <p>MongoDB</p>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="container3">
+        <div id="contact-me">
+          <h2>Contact Me</h2>
+        </div>
+        <div id="contact-me-links">
+          <ul>
+            <li>425-314-1443</li>
+            <li>trevor.eckberg@gmail.com</li>
+            <li><a href="https://github.com/trev-eck/">GitHub</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/trevor-eckberg-baa661192/"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
-    
-</body>
+    <footer></footer>
+  </body>
 </html>
