@@ -38,8 +38,8 @@ nav a {
     flex:5;
 }
 #about-me-info p {
-    padding: 1% 2% 1% 2%;
-    font-size: 1vw;
+    padding: 1% 10%;
+    font-size: 1.5vw;
 }
 #container2{
     display: flex;
@@ -73,11 +73,10 @@ nav a {
 .main-p{
     max-width: 80%;
 }
-
 #container3{
     display: flex;
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
 }
 #contact-me{
     flex:1;
