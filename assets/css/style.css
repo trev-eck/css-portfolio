@@ -60,18 +60,35 @@ nav a {
 
 .project{
     border: solid 5px lightblue;
-    max-width: 40%;
+    width: 37.5vw;
+    height: 25vw;
     opacity: 0.75;
 }
-.project img {
-    width: 100%;
+.proj-2{
+    background-image: url("../images/tom-sodoge-cSjQJT0t2vA-unsplash.jpg");
+    background-size: contain;
+}
+.proj-3{
+    background-image: url("../images/stephen-phillips-hostreviews-co-uk-aE0iX-bLCJc-unsplash\ \(1\).jpg");
+    background-size: contain;
+}
+.proj-4{
+    background-image: url("../images/nejc-soklic-2jTu7H9l6JA-unsplash.jpg");
+    background-size: contain;
+}
+.proj-5{
+    background-image: url("../images/jo-szczepanska-9OKGEVJiTKk-unsplash.jpg");
+    background-size: contain;
 }
 .project:hover{
     transition: 0.5s ease-in-out;
     opacity: 1;
 }
 .main-p{
-    max-width: 80%;
+    width: 75vw;
+    height: 50vw;
+    background-image: url("../images/octavian-dan-b21Ty33CqVs-unsplash.jpg");
+    background-size: contain;
 }
 #container3{
     display: flex;
@@ -108,5 +125,5 @@ h2{
     font-size: 1.5vw;
     width: 10vw;
     text-align: center;
-    bottom: 3vw;
+    top: 70%;
 }
