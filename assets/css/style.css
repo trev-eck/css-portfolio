@@ -30,12 +30,20 @@ nav a {
     padding-top: 1%;
     padding-bottom: 1%;
 }
+/* Had to some janky things with the flex size in order to avoid formatting the image correctly*/
 #about-me{
-    flex:1;
+    flex:1.07;
     border-right: solid 0.25vw darkslategray;
 }
+#about-me-pic{
+    flex:0.67;
+    background-image: url("../images/head-shot.jpg");
+    background-size: contain;
+    border: solid 5px lightblue;
+    margin-left: 5%;
+}
 #about-me-info{
-    flex:5;
+    flex: 4.33;
 }
 #about-me-info p {
     padding: 1% 10%;
@@ -57,10 +65,10 @@ nav a {
     flex-direction: row;
     justify-content: center;
 }
-
+/* did some more janky sizing in order to avoid reformatting the background images for the projects */
 .project{
     border: solid 5px lightblue;
-    width: 37.5vw;
+    width: 37vw;
     height: 25vw;
     opacity: 0.75;
 }
@@ -84,8 +92,9 @@ nav a {
     transition: 0.5s ease-in-out;
     opacity: 1;
 }
+/* makes the main project appear twice as large */
 .main-p{
-    width: 75vw;
+    width: 74vw;
     height: 50vw;
     background-image: url("../images/octavian-dan-b21Ty33CqVs-unsplash.jpg");
     background-size: contain;
