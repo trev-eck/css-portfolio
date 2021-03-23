@@ -1,138 +1,155 @@
+/* style/format header to match the theme for the site, in hindsight we could have declared some color variables up here in order to streamline color coding throughout this document */
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1%;
-    background-color: darkslategray;
-    color: lightblue;
-    text-decoration: underline solid lightblue 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: darkslategray;
+  color: lightblue;
+  text-decoration: underline solid lightblue 2px;
 }
+/* give the page outside of the header a litte bit of color */
 main {
-    background-color: beige;
+  background-color: beige;
 }
+/* format the navigation bar to be readable and scale with view width and  */
 nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 30vw;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  min-width: 30vw;
+  list-style: none;
 }
-h1{
-    font-size: 3vw;
-    background-color: lightblue;
-    color: darkslategray;
+/* allow main header to scale with view width and match color theme */
+h1 {
+  font-size: 3vw;
+  background-color: lightblue;
+  color: darkslategray;
 }
+/* change colors and allow font to scale with view width */
 nav a {
-    color: lightblue;
-    text-decoration: none;
-    font-size: 1.5vw;
+  color: lightblue;
+  text-decoration: none;
+  font-size: 1.5vw;
 }
-#container{
-    display: flex;
-    padding-top: 1%;
-    padding-bottom: 1%;
+/* creates the flex container for the about-me section */
+#container {
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
-/* Had to some janky things with the flex size in order to avoid formatting the image correctly*/
-#about-me{
-    flex:1.07;
-    border-right: solid 0.25vw darkslategray;
+/* Had to some janky things with the flex size in order to avoid formatting the image correctly, general formatting stuff to make the section appear as intended*/
+#about-me {
+  flex: 1.07;
+  border-right: solid 0.25vw darkslategray;
 }
-#about-me-pic{
-    flex:0.67;
-    background-image: url("../images/head-shot.jpg");
-    background-size: contain;
-    border: solid 5px lightblue;
-    margin-left: 5%;
+#about-me-pic {
+  flex: 0.67;
+  background-image: url("../images/head-shot.jpg");
+  background-size: contain;
+  border: solid 5px lightblue;
+  margin-left: 5%;
 }
-#about-me-info{
-    flex: 4.33;
+#about-me-info {
+  flex: 4.33;
 }
 #about-me-info p {
-    padding: 1% 10%;
-    font-size: 1.5vw;
+  padding: 1% 10%;
+  font-size: 1.5vw;
 }
-#container2{
-    display: flex;
-    padding-top: 1%;
-    padding-bottom: 1%;
+/* create the flex container for the work/projects section */
+#container2 {
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
-#work{
-    flex:1;
-    border-right: solid 0.25vw darkslategray;
+/* header box and border for the work section */
+#work {
+  flex: 1;
+  border-right: solid 0.25vw darkslategray;
 }
-#projects{
-    flex:5;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+/* the container for all of our projects */
+#projects {
+  flex: 5;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 /* did some more janky sizing in order to avoid reformatting the background images for the projects */
-.project{
-    border: solid 5px lightblue;
-    width: 37vw;
-    height: 25vw;
-    opacity: 0.75;
+/* this is the default formatting for all of the projects, individual projects receive some styling below */
+.project {
+  border: solid 5px lightblue;
+  width: 37vw;
+  height: 25vw;
+  opacity: 0.75;
 }
-.proj-2{
-    background-image: url("../images/tom-sodoge-cSjQJT0t2vA-unsplash.jpg");
-    background-size: contain;
+/* assigns a background image for each of the individual projects */
+.proj-2 {
+  background-image: url("../images/tom-sodoge-cSjQJT0t2vA-unsplash.jpg");
+  background-size: contain;
 }
-.proj-3{
-    background-image: url("../images/stephen-phillips-hostreviews-co-uk-aE0iX-bLCJc-unsplash\ \(1\).jpg");
-    background-size: contain;
+.proj-3 {
+  background-image: url("../images/stephen-phillips-hostreviews-co-uk-aE0iX-bLCJc-unsplash\ \(1\).jpg");
+  background-size: contain;
 }
-.proj-4{
-    background-image: url("../images/nejc-soklic-2jTu7H9l6JA-unsplash.jpg");
-    background-size: contain;
+.proj-4 {
+  background-image: url("../images/nejc-soklic-2jTu7H9l6JA-unsplash.jpg");
+  background-size: contain;
 }
-.proj-5{
-    background-image: url("../images/jo-szczepanska-9OKGEVJiTKk-unsplash.jpg");
-    background-size: contain;
+.proj-5 {
+  background-image: url("../images/jo-szczepanska-9OKGEVJiTKk-unsplash.jpg");
+  background-size: contain;
 }
-.project:hover{
-    transition: 0.5s ease-in-out;
-    opacity: 1;
+/* adds a hover effect to the project class */
+.project:hover {
+  transition: 0.5s ease-in-out;
+  opacity: 1;
 }
 /* makes the main project appear twice as large */
-.main-p{
-    width: 74vw;
-    height: 50vw;
-    background-image: url("../images/octavian-dan-b21Ty33CqVs-unsplash.jpg");
-    background-size: contain;
+.main-p {
+  width: 74vw;
+  height: 50vw;
+  background-image: url("../images/octavian-dan-b21Ty33CqVs-unsplash.jpg");
+  background-size: contain;
 }
-#container3{
-    display: flex;
-    padding-top: 1%;
-    padding-bottom: 3%;
+/* flex container for the contact-me section */
+#container3 {
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 3%;
 }
-#contact-me{
-    flex:1;
-    border-right: solid 0.25vw darkslategray;
+#contact-me {
+  flex: 1;
+  border-right: solid 0.25vw darkslategray;
 }
-#contact-me-links{
-    flex:5;
+#contact-me-links {
+  flex: 5;
 }
+/* make the banner image below the header fit the width of the screen */
 figure img {
-    width: 100%;
+  width: 100%;
 }
-h2{
-    color:darkslategray;
-    display:flex;
-    justify-content: flex-end;
-    padding-right: 1%;
-    font-size: 3vw;
+/* style all of the h2 tags used throughout the page and make them scale with view width*/
+h2 {
+  color: darkslategray;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1%;
+  font-size: 3vw;
 }
-#contact-me-links ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-evenly;
-    font-size: 1.5vw;
+/* formats the contact me section to scale with view width */
+#contact-me-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 1.5vw;
 }
+/* formats and moves the text-box used on the projects */
 .text-box {
-    position: relative;
-    background-color: lightblue;
-    font-size: 1.5vw;
-    width: 10vw;
-    text-align: center;
-    top: 70%;
+  position: relative;
+  background-color: lightblue;
+  font-size: 1.5vw;
+  width: 10vw;
+  text-align: center;
+  top: 70%;
 }
