@@ -8,3 +8,5 @@ The intention of this website is to provide potential employers with a portal to
 
 The live web-page can be found at:
 https://trev-eck.github.io/css-portfolio/
+
+Further explanation of methods used can be found on internal comments
