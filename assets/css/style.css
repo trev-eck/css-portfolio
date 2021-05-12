@@ -84,7 +84,7 @@ nav a {
 }
 /* assigns a background image for each of the individual projects */
 .proj-2 {
-  background-image: url("../images/tom-sodoge-cSjQJT0t2vA-unsplash.jpg");
+  background-image: url("../images/QaC3.png");
   background-size: contain;
 }
 .proj-3 {
@@ -108,7 +108,7 @@ nav a {
 .main-p {
   width: 74vw;
   height: 50vw;
-  background-image: url("../images/QaC3.png");
+  background-image: url("../images/pokedex5.png");
   background-size: contain;
 }
 /* flex container for the contact-me section */
